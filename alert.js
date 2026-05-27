@@ -49,7 +49,7 @@ async function checkWeather() {
                     { name: "Area Affected", value: properties.areaDesc || "Unknown" },
                     { name: "Expires", value: new Date(properties.expires).toLocaleString() }
                 ],
-                url: properties.affectedZones?[0] || "https://weather.gov"
+                url: "https://weather.gov"
             };
           
           // Sends both the custom role ping and the red layout box
